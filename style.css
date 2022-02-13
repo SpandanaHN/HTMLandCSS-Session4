@@ -1,0 +1,132 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.Container{
+    width: 1200px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Header Section*/
+
+header{
+    background-color: #128c7e;
+    height: 90px;
+}
+
+.header_logo{
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.header_nav{
+    width: 1000px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.header_nav a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    margin: 5px 40px;
+}
+
+
+.tittle{
+     margin-top: 50px;
+}
+
+.tittle_one{
+    width: 40%;
+    padding: 25px 0px;
+}
+
+.tittle_one h1{
+        font-size: 35px;
+        padding-left: 120px;
+}
+
+.tittle_one p{
+    font-size: 20px;
+    padding-left: 120px;
+}
+
+.tittle_one ul{
+    font-size: 20px;
+    color: rgb(51, 187, 157);
+    padding-left: 120px;
+}
+
+.tittle_one ul li:hover{
+    color: rgb(175, 160, 160);
+}
+
+.tittle_two img{
+    width: 45%;
+    margin: auto;
+    padding-left: 70px;
+}
+
+.tittle_three{
+    width: 48%;
+    margin: auto;
+    background-color: rgb(200, 240, 243);
+}
+
+.tittle_three h2{
+    text-align: center;
+}
+
+.tittle_three h2 b{
+    font-size: 30px;
+    color: black;
+    width: 30%;
+}
+
+
+.tittle_three p{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.tittle_three img{
+    width: 50%;
+    margin:auto;
+    align-content: center;
+    padding-left: 100px;
+}
+
+.tittle_four{
+    width: 48%;
+    margin-left: auto;
+    background-color: rgb(247, 229, 218);
+}
+
+.tittle_four img{
+    width: 70%;
+    margin-left: 10px;
+    padding-left: 40px;
+}
+
+.tittle_four .tittle_four_one h3{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.tittle_four_one p{
+    width: 90%;
+    margin: auto;
+}
